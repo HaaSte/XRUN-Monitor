@@ -1,51 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="XRUN Monitor">
   <category name="Monitoring">
-    <!-- JSFX package -->
-    <reapack name="XRUN Monitor" type="effect"
-             desc="Detect XRUNs via drift between audio clock and OS clock (logs to GMEM).">
-      <version name="1.0.0" author="Håvard Endresen (HAST3)">
-        <!-- Install into REAPER/Effects -->
-        <source file="HAST3_XRUN_Monitor.jsfx">
-          https://github.com/HaaSte/XRUN-Monitor/raw/main/Effects/HAST3_XRUN_Monitor.jsfx
-        </source>
-      </version>
-    </reapack>
+    <reapack name="XRUN Monitor">
+      <description>
+        Detects XRUNs by measuring drift between the audio clock and the OS clock.
+        Includes actions to visualize, export, and experimentally compensate XRUNs.
+      </description>
 
-    <!-- Action scripts (each as its own package entry) -->
-    <reapack name="XRUN: Add Regions" type="script"
-             desc="Create colored XRUN regions in the project from GMEM log.">
       <version name="1.0.0" author="Håvard Endresen (HAST3)">
-        <source main="main">
-          https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_AddRegions.lua
-        </source>
-      </version>
-    </reapack>
+        <files>
+          <!-- JSFX -->
+          <file>Effects/HAST3_XRUN_Monitor.jsfx</file>
 
-    <reapack name="XRUN: Clear Regions" type="script"
-             desc="Delete all project regions whose name begins with XRUN.">
-      <version name="1.0.0" author="Håvard Endresen (HAST3)">
-        <source main="main">
-          https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_ClearRegions.lua
-        </source>
-      </version>
-    </reapack>
-
-    <reapack name="XRUN: Write CSV" type="script"
-             desc="Export XRUN log from GMEM to CSV.">
-      <version name="1.0.0" author="Håvard Endresen (HAST3)">
-        <source main="main">
-          https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_WriteCSV.lua
-        </source>
-      </version>
-    </reapack>
-
-    <reapack name="XRUN: Insert Time (EXPERIMENTAL)" type="script"
-             desc="Experimental drift compensation by inserting empty space where XRUNs are detected.">
-      <version name="1.0.0" author="Håvard Endresen (HAST3)">
-        <source main="main">
-          https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_InsertTime_EXPERIMENTAL.lua
-        </source>
+          <!-- Lua actions -->
+          <file>Scripts/HAST3_XRUN_AddRegions.lua</file>
+          <file>Scripts/HAST3_XRUN_ClearRegions.lua</file>
+          <file>Scripts/HAST3_XRUN_WriteCSV.lua</file>
+          <file>Scripts/HAST3_XRUN_InsertTime_EXPERIMENTAL.lua</file>
+        </files>
       </version>
     </reapack>
   </category>
