@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="XRUN Monitor">
   <category name="Monitoring">
-    <reapack name="XRUN Monitor">
-      <description>
-        Detects XRUNs by measuring drift between the audio clock and the OS clock.
-        Includes actions to visualize, export, and experimentally compensate XRUNs.
-      </description>
-
+    <reapack name="XRUN Monitor" desc="Detect XRUNs via audio/OS clock drift">
       <version name="1.0.0" author="Håvard Endresen (HAST3)">
-        <files>
-          <!-- JSFX -->
-          <file>Effects/HAST3_XRUN_Monitor.jsfx</file>
+        
+        <!-- JSFX -->
+        <source file="Effects/HAST3_XRUN_Monitor.jsfx">
+          https://github.com/HaaSte/XRUN-Monitor/raw/main/Effects/HAST3_XRUN_Monitor.jsfx
+        </source>
 
-          <!-- Lua actions -->
-          <file>Scripts/HAST3_XRUN_AddRegions.lua</file>
-          <file>Scripts/HAST3_XRUN_ClearRegions.lua</file>
-          <file>Scripts/HAST3_XRUN_WriteCSV.lua</file>
-          <file>Scripts/HAST3_XRUN_InsertTime_EXPERIMENTAL.lua</file>
-        </files>
+        <!-- Lua actions -->
+        <source file="Scripts/HAST3_XRUN_AddRegions.lua">
+          https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_AddRegions.lua
+        </source>
+
+        <source file="Scripts/HAST3_XRUN_ClearRegions.lua">
+          https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_ClearRegions.lua
+        </source>
+
+        <source file="Scripts/HAST3_XRUN_WriteCSV.lua">
+          https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_WriteCSV.lua
+        </source>
+
+        <source file="Scripts/HAST3_XRUN_InsertTime_EXPERIMENTAL.lua">
+          https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_InsertTime_EXPERIMENTAL.lua
+        </source>
+
       </version>
     </reapack>
   </category>
