@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="XRUN Monitor">
-  <category name="Monitoring">
-    <reapack name="XRUN Monitor" type="effect" desc="XRUN Underrun Monitor">
-      <version name="1.0">
-        <source>https://github.com/HaaSte/XRUN-Monitor/raw/main/Effects/HAST3_XRUN_Monitor.jsfx</source>
-      </version>
-    </reapack>
-  </category>
+  <reapack name="XRUN Monitor" type="effect" desc="XRUN Underrun Monitor">
+    <version name="1.0">
+      <source>https://github.com/HaaSte/XRUN-Monitor/raw/main/Effects/HAST3_XRUN_Monitor.jsfx</source>
+    </version>
+  </reapack>
 </index>
