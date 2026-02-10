@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index version="1" name="XRUN Monitor">
+  <category name="Monitoring">
+    <reapack name="XRUN Monitor">
+      <description>
+        Detects XRUNs by measuring drift between the audio clock and the OS clock.
+        Includes actions to visualize, export, and experimentally compensate XRUNs.
+      </description>
+
+      <version name="1.0.0">
+        <effects>
+          <effect file="Effects/XRUN Monitor.jsfx" />
+        </effects>
+
+        <scripts>
+          <script file="Scripts/HAST3_XRUN_AddRegions.lua" />
+          <script file="Scripts/HAST3_XRUN_ClearRegions.lua" />
+          <script file="Scripts/HAST3_XRUN_WriteCSV.lua" />
+          <script file="Scripts/HAST3_XRUN_InsertTime_EXPERIMENTAL.lua" />
+        </scripts>
+      </version>
+    </reapack>
+  </category>
+</index>
