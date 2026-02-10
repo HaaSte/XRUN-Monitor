@@ -3,7 +3,7 @@
   <category name="Effects">
     <reapack name="HAST3_XRUN_Monitor.jsfx" type="effect" desc="XRUN Underrun Monitor">
       <version name="1.0">
-        <source>https://github.com/HaaSte/raw/main/Effects/HAST3_XRUN_Monitor.jsfx</source>
+        <source>https://github.com/HaaSte/XRUN-Monitor/raw/main/Effects/HAST3_XRUN_Monitor.jsfx</source>
       </version>
     </reapack>
   </category>
