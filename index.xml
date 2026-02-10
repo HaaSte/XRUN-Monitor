@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="XRUN Monitor">
   <category name="Monitoring">
-
-    <!-- JSFX -->
-    <reapack name="XRUN Monitor (JSFX)" desc="Detect XRUNs via audio/OS clock drift">
+    <reapack name="XRUN Monitor" desc="Detect XRUNs via audio/OS clock drift">
       <version name="1.0.0" author="Håvard Endresen (HAST3)">
+
         <source file="Effects/HAST3_XRUN_Monitor.jsfx">https://github.com/HaaSte/XRUN-Monitor/raw/main/Effects/HAST3_XRUN_Monitor.jsfx</source>
-      </version>
-    </reapack>
 
-    <!-- Add regions -->
-    <reapack name="XRUN: Add Regions" desc="Create project regions at XRUN positions">
-      <version name="1.0.0" author="Håvard Endresen (HAST3)">
         <source file="Scripts/HAST3_XRUN_AddRegions.lua">https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_AddRegions.lua</source>
-      </version>
-    </reapack>
-
-    <!-- Clear regions -->
-    <reapack name="XRUN: Clear Regions" desc="Delete all XRUN regions in the project">
-      <version name="1.0.0" author="Håvard Endresen (HAST3)">
         <source file="Scripts/HAST3_XRUN_ClearRegions.lua">https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_ClearRegions.lua</source>
-      </version>
-    </reapack>
-
-    <!-- Write CSV -->
-    <reapack name="XRUN: Write CSV" desc="Export XRUN log from GMEM to CSV">
-      <version name="1.0.0" author="Håvard Endresen (HAST3)">
         <source file="Scripts/HAST3_XRUN_WriteCSV.lua">https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_WriteCSV.lua</source>
-      </version>
-    </reapack>
-
-    <!-- Experimental -->
-    <reapack name="XRUN: Insert Time (EXPERIMENTAL)" desc="Experimental drift compensation by inserting empty space">
-      <version name="1.0.0" author="Håvard Endresen (HAST3)">
         <source file="Scripts/HAST3_XRUN_InsertTime_EXPERIMENTAL.lua">https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_InsertTime_EXPERIMENTAL.lua</source>
+
       </version>
     </reapack>
-
   </category>
 </index>
