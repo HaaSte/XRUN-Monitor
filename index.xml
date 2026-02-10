@@ -9,7 +9,7 @@
 
       <version name="1.0.0">
         <effects>
-          <effect file="Effects/XRUN Monitor.jsfx" />
+          <effect file="Effects/HAST3_XRUN_Monitor.jsfx" />
         </effects>
 
         <scripts>
