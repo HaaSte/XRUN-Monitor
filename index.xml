@@ -11,30 +11,22 @@
   <category name="jsfx-lua">
     <reapack name="XRUN_AddRegions" type="script" desc="XRUN: Add Project Regions">
       <version name="1.0" author="HAST3">
-        <source file="HAST3_XRUN_AddRegions.lua">
-          https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_AddRegions.lua
-        </source>
+        <source file="HAST3_XRUN_AddRegions.lua">https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_AddRegions.lua</source>
       </version>
     </reapack>
     <reapack name="XRUN_ClearRegions" type="script" desc="XRUN: Remove XRUN Project Regions">
       <version name="1.0" author="HAST3">
-        <source file="HAST3_XRUN_ClearRegions.lua">
-          https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_ClearRegions.lua
-        </source>
+        <source file="HAST3_XRUN_ClearRegions.lua">https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_ClearRegions.lua</source>
       </version>
     </reapack>
     <reapack name="XRUN_InsertTime_EXPERIMENTAL" type="script" desc="XRUN: Insert time compensation in project (EXPERIMENTAL)">
       <version name="1.0" author="HAST3">
-        <source file="HAST3_XRUN_InsertTime_EXPERIMENTAL.lua">
-          https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_InsertTime_EXPERIMENTAL.lua
-        </source>
+        <source file="HAST3_XRUN_InsertTime_EXPERIMENTAL.lua">https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_InsertTime_EXPERIMENTAL.lua</source>
       </version>
     </reapack>
     <reapack name="XRUN_WriteCSV" type="script" desc="XRUN: Write XRUNS to CSV">
       <version name="1.0" author="HAST3">
-        <source file="HAST3_XRUN_WriteCSV.lua">
-          https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_WriteCSV.lua
-        </source>
+        <source file="HAST3_XRUN_WriteCSV.lua">https://github.com/HaaSte/XRUN-Monitor/raw/main/Scripts/HAST3_XRUN_WriteCSV.lua</source>
       </version>
     </reapack>
   </category>
