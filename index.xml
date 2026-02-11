@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="XRUN Monitor">
+<index version="1" name="XRUN-Monitor">
   <category name="jsfx">
     <reapack name="XRUN-Monitor" type="effect" desc="XRUN Monitor">
       <version name="1.0" author="HAST3">
