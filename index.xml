@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index version="1" name="XRUN Monitor">
-  <category name="JSFX">
+  <category name="jsfx">
     <reapack name="XRUN Monitor" type="effect" desc="XRUN Monitor">
       <version name="1.0" author="HAST3">
         <source>https://github.com/HaaSte/XRUN-Monitor/raw/main/Effects/HAST3_XRUN_Monitor.jsfx</source>
