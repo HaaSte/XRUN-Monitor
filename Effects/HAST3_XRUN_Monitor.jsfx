@@ -92,7 +92,7 @@ display_log = slider7;
       dropouts_total += 1;
       (display_log) ? (
         (log_entries <= max_lines) ? (
-          sprintf(#line, "%.4f\t%.4f\t%d\n", dropout_time_os/srate, dropout_time_audio/srate, dropout_len);
+          sprintf(#line, "%.3f\t%.3f\t%d\n", dropout_time_os/srate, dropout_time_audio/srate, dropout_len);
           #dropout_log += #line;
           (log_entries == max_lines) ? (#dropout_log += "DISPLAY FULL (GMEM is still logging!)\n");
           log_entries += 1;
